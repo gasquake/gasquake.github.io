@@ -64,7 +64,7 @@ io.on("connection", function(socket) {
     });
 });
 
-var port = process.env.PORT || 8080;
+var port = 8080;
 
 http.listen(port, function() {
   console.log("listening on *:" + port);
